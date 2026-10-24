@@ -1,22 +1,13 @@
 # Audiobooster Supported Packages Registry
 
-Curated list of verified supported media players and streaming audio applications for Audiobooster.
+Curated key-value registry of verified supported audio player apps for Audiobooster, mapping Android package identifiers to their display names.
 
-## Supported Apps List (`supported_packages.json`)
+## Supported Apps Mapping (`supported_packages.json`)
 
-The supported package identifiers are maintained in [`supported_packages.json`](supported_packages.json):
+The supported package mapping is maintained in [`supported_packages.json`](supported_packages.json):
 
 ```json
-[
-  "com.spotify.music",
-  "org.videolan.vlc",
-  "com.google.android.youtube",
-  "com.apple.android.music",
-  "deezer.android.app",
-  "com.soundcloud.android",
-  "com.amazon.mp3",
-  "tunein.player",
-  "com.pandora.android",
-  "com.aspiro.tidal"
-]
+{
+  "com.spotify.music": "Spotify"
+}
 ```
